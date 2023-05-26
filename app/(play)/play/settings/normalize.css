@@ -1,0 +1,5 @@
+.hover-main:hover {
+  .hover-icon {
+    display: flex;
+  }
+}

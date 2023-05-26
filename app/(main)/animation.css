@@ -1,0 +1,29 @@
+@keyframes animatedOne {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .animated h1 {
+    background: url(https://mcdn.wallpapersafari.com/medium/67/36/gfWO3h.jpg);
+    display: inline-flex;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 30s linear infinite;
+    animation-fill-mode: backwards;
+  }
+}
+.b-banner {
+  background: url(https://mcdn.wallpapersafari.com/medium/67/36/gfWO3h.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 10px;
+  /* background-position: 0 0;
+  animation: animatedOne 30s linear infinite; */
+}

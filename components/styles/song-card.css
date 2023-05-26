@@ -1,0 +1,12 @@
+.hover-blob:hover {
+  /* webkit-filter: blur(1px);  */
+  /* filter: blur(1px); */
+  opacity: 0.78;
+  .hover-blob__text {
+    display: flex;
+  }
+}
+
+.hover-blob__text {
+  display: none;
+}

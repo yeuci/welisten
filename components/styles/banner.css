@@ -1,0 +1,12 @@
+.banner-animation {
+  animation: animatedOne 15s infinite normal linear;
+}
+
+@keyframes animatedOne {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 0px;
+  }
+}
