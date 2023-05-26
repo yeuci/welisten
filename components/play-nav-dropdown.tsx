@@ -56,7 +56,9 @@ export default function PlayNavDropdown({ children }: PlayNavDropdownProps) {
         <DropdownMenuSeparator />
         <DropdownMenuItem>
           <Github className="mr-2 h-4 w-4" />
-          <span>GitHub</span>
+          <a href="https://github.com/yeuci/welisten" target="_blank">
+            GitHub
+          </a>
         </DropdownMenuItem>
         {/* <DropdownMenuItem disabled>
           <Cloud className="mr-2 h-4 w-4" />

@@ -42,10 +42,14 @@ export default function Home() {
               <Icons.logo className="mr-2 h-4 w-4" />
               Listen
             </Link>
-            <Link href={"/play"} className={cn(buttonVariants({ size: "lg" }))}>
+            <a
+              href={"https://github.com/yeuci/welisten"}
+              target="_blank"
+              className={cn(buttonVariants({ size: "lg" }))}
+            >
               <Icons.gitHub className="mr-2 h-4 w-4" />
               Github
-            </Link>
+            </a>
           </div>
         </div>
       </section>
