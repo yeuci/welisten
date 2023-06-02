@@ -9,7 +9,7 @@ export function getInitials(name: string) {
   const initials = name.split(" ").map((word) => word[0]);
   if (initials.length === 1) {
     const newInitials = name.split("@");
-    return newInitials[0][0] + newInitials[0][1];
+    return newInitials[0].substring(0, 3);
   }
   return initials.slice(0, 3).join("");
 }
